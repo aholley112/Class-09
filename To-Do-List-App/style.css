@@ -1,0 +1,45 @@
+.container {
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+#taskInput {
+    width: 60%;
+    padding: 10px;
+}
+
+#addTaskBtn {
+    padding: 8px 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.deleteBtn {
+    margin-left: auto;
+    padding: 4px 8px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
